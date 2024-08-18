@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Telegram_Messanging_Bot": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:55064;http://localhost:55065"
+    }
+  }
+}

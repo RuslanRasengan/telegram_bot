@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
+              "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
+              "RelativeToolTip": "Telegram_Messanging_Bot\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-18T06:45:14.609Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
