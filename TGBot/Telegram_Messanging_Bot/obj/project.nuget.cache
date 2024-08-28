@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ccMqextMRJA=",
+  "dgSpecHash": "uQC2B88bF2o=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
