@@ -16,15 +16,16 @@ namespace Telegram_Messanging_Bot
     }
     class Program
     {
-        static TelegramBotClient Bot = new TelegramBotClient
-            ("7002027437:AAE846ngvBKppW1QcHl61wn58OFS_OPRq1A");
+        static TelegramBotClient Bot = new TelegramBotClient ("7002027437:AAE846ngvBKppW1QcHl61wn58OFS_OPRq1A");
+        static BotCommandHandler botCommandHandler;
 
         static string fileName = "updates.json";
         static List<BotUpdate> botUpdates = new List<BotUpdate> ();
 
         static void Main(string[] args)
         {
-            //read all saved updates 
+
+            botCommandHandler = new BotCommandHandler(Bot);
 
             try
             {
@@ -46,6 +47,7 @@ namespace Telegram_Messanging_Bot
 
                 }
             };
+
             Bot.StartReceiving(UpdateHandler, ErrorHandler, receiverOptions);
 
             Console.ReadLine();
@@ -54,6 +56,7 @@ namespace Telegram_Messanging_Bot
         private static async Task ErrorHandler(ITelegramBotClient client, Exception exception, 
             CancellationToken token)
         {
+            Console.WriteLine($"Error: {exception.Message}");
             throw new NotImplementedException();
         }
 
@@ -66,20 +69,22 @@ namespace Telegram_Messanging_Bot
                 var id = update.Message.Chat.Id;
                 string? username = update.Message.Chat.Username;
 
-                switch (text)
-                {
-                    case "/start":
-                        await bot.SendTextMessageAsync(id, "Привіт! Я твій асистен. Чим я можу допомогти?");
-                        break;
+                //switch (text)
+                //{
+                //    case "/start":
+                //        await bot.SendTextMessageAsync(id, "Привіт! Я твій асистен. Чим я можу допомогти?");
+                //        break;
 
-                    case "/help":
-                        await bot.SendTextMessageAsync(id, "Ось команди, які я розумію: /start, /help, /set_reminder");
-                        break;
+                //    case "/help":
+                //        await bot.SendTextMessageAsync(id, "Ось команди, які я розумію: /start, /help, /set_reminder");
+                //        break;
 
-                    default:
-                        await bot.SendTextMessageAsync(id, "Вибачте, я не розумію цю командую");
-                        break;
-                }
+                //    default:
+                //        await bot.SendTextMessageAsync(id, "Вибачте, я не розумію цю командую");
+                //        break;
+                //}
+
+                await botCommandHandler.HandleCommand(text, id);
 
                 Console.WriteLine($"{username}| {id} | {text}");
             }
