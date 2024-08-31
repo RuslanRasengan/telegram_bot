@@ -34,9 +34,9 @@
               "Title": "TicTacToeGame.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\TicTacToeGame.cs",
               "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\TicTacToeGame.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\TicTacToeGame.cs*",
-              "RelativeToolTip": "Telegram_Messanging_Bot\\TicTacToeGame.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\TicTacToeGame.cs",
+              "RelativeToolTip": "Telegram_Messanging_Bot\\TicTacToeGame.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:18:51.716Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Telegram_Messanging_Bot\\BotCommandHandler.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAkwBwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T18:24:51.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-28T18:24:51.943Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Telegram_Messanging_Bot\\BotCommand.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T10:10:25.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-29T10:10:25.515Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Telegram_Messanging_Bot\\Program.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAA7wE0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T06:45:14.609Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-18T06:45:14.609Z"
             }
           ]
         }
