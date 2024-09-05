@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\botcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\botcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\tictactoegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\tictactoegame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\botcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\botcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\botcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\botcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +26,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TicTacToeGame.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\TicTacToeGame.cs",
               "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\TicTacToeGame.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\TicTacToeGame.cs",
               "RelativeToolTip": "Telegram_Messanging_Bot\\TicTacToeGame.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAkwFMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-29T22:18:51.716Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BotCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\BotCommandHandler.cs",
               "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\BotCommandHandler.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\BotCommandHandler.cs",
               "RelativeToolTip": "Telegram_Messanging_Bot\\BotCommandHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAkwBwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwDAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T18:24:51.943Z"
+              "WhenOpened": "2024-08-28T18:24:51.943Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BotCommand.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\BotCommand.cs",
               "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\BotCommand.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\BotCommand.cs",
               "RelativeToolTip": "Telegram_Messanging_Bot\\BotCommand.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T10:10:25.515Z"
+              "WhenOpened": "2024-08-29T10:10:25.515Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
               "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\Program.cs",
               "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
               "RelativeToolTip": "Telegram_Messanging_Bot\\Program.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAA7wE0AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwE0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T06:45:14.609Z"
+              "WhenOpened": "2024-08-18T06:45:14.609Z",
+              "EditorCaption": ""
             }
           ]
         }
