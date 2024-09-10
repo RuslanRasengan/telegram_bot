@@ -2,9 +2,11 @@
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
-using TelegramBot.Core.Interfaces;
+using TelegramBot.Core.Interfaces.Logging;
+using TelegramBot.Core.Interfaces.Messaging;
+using TelegramBot.Core.Interfaces.Services;
 
-namespace TelegramBot.Infrastructure.Services
+namespace TelegramBot.Service.TelegramBot.Services
 {
     public class TelegramBotService : ITelegramBotService
     {

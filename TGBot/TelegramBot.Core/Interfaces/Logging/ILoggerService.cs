@@ -1,4 +1,4 @@
-﻿namespace TelegramBot.Core.Interfaces
+﻿namespace TelegramBot.Core.Interfaces.Logging
 {
     public interface ILoggerService
     {

@@ -1,8 +1,9 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
-using TelegramBot.Core.Interfaces;
+using TelegramBot.Core.Interfaces.Commands;
+using TelegramBot.Core.Interfaces.Messaging;
 
-namespace TelegramBot.Infrastructure.Handlers
+namespace TelegramBot.Service.TelegramBot.Services
 {
     public class MessageHandler : IMessageHandler
     {

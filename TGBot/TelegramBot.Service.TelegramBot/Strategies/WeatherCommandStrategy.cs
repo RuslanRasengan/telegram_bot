@@ -1,8 +1,9 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
-using TelegramBot.Core.Interfaces;
+using TelegramBot.Core.Interfaces.Commands;
+using TelegramBot.Core.Interfaces.Services;
 
-namespace TelegramBot.Core.Strategies
+namespace TelegramBot.Service.TelegramBot.Strategies
 {
     public class WeatherCommandStrategy : ICommandStrategy
     {

@@ -1,0 +1,9 @@
+{
+  "OpenAi": {
+    "ApiKey": "YOUR_OPEN_AI_KEY"
+    ;
+  },
+  "OpenWeather ": {
+    "ApiKey": "YOUR_OPENWEATHER_API_KEY"
+  }
+}

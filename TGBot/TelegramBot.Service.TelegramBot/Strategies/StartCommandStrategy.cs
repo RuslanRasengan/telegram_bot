@@ -1,8 +1,8 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
-using TelegramBot.Core.Interfaces;
+using TelegramBot.Core.Interfaces.Commands;
 
-namespace TelegramBot.Core.Strategies
+namespace TelegramBot.Service.TelegramBot.Strategies
 {
     public class StartCommandStrategy : ICommandStrategy
     {

@@ -1,10 +1,8 @@
 ﻿using Telegram.Bot;
 using Telegram.Bot.Types;
-using TelegramBot.Core.Interfaces;
-using System.Threading.Tasks;
-using TelegramBot.Core.Strategies;
+using TelegramBot.Core.Interfaces.Commands;
 
-namespace TelegramBot.Infrastructure.Handlers
+namespace TelegramBot.Service.TelegramBot.Services
 {
     public class CommandHandler : ICommandHandler
     {

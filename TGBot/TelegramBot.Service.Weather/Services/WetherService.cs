@@ -1,18 +1,19 @@
-﻿using Newtonsoft.Json;
-using TelegramBot.Core.Interfaces;
-using TelegramBot.Core.Models;
+﻿using Microsoft.Extensions.Configuration;
+using Newtonsoft.Json;
+using TelegramBot.Core.Interfaces.Services;
 
-namespace TelegramBot.Infrastructure.Services
+namespace TelegramBot.Service.Weather.Services
 {
-    public class WetherService : IWeatherService
+    public class WeatherService : IWeatherService
     {
         private readonly HttpClient _httpClient;
 
         private readonly string _apiKey = "YOUR_APIKEY";
 
-        public WetherService(HttpClient httpClient)
+        public WeatherService(HttpClient httpClient, IConfiguration configuration)
         {
             _httpClient = httpClient;
+            _apiKey = configuration["OpenWeather: ApiKey"]; // API ключ з конфігурації
         }
 
         public async Task<string> GetWeatherAsync(string cityName)

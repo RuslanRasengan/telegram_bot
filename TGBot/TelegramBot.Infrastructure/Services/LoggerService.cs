@@ -1,4 +1,4 @@
-﻿using TelegramBot.Core.Interfaces;
+﻿using TelegramBot.Core.Interfaces.Logging;
 
 namespace TelegramBot.Infrastructure.Services
 {
