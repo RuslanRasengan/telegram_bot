@@ -3,8 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegram_messanging_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{240CB07C-0DEF-44DA-BC07-6C0CE783F0B2}|Telegram_Messanging_Bot\\Telegram_Messanging_Bot.csproj|solutionrelative:telegram_messanging_bot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{75AA6744-C0E9-47EA-9F8D-939817190DD4}|TelegramBot.Presentation\\TelegramBot.Presentation.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75AA6744-C0E9-47EA-9F8D-939817190DD4}|TelegramBot.Presentation\\TelegramBot.Presentation.csproj|solutionrelative:telegrambot.presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\handlers\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\handlers\\commandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\strategies\\weathercommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\strategies\\weathercommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\services\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\services\\telegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\strategies\\startcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\strategies\\startcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\strategies\\commandcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\strategies\\commandcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\strategies\\askcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\strategies\\askcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\strategies\\helpcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\strategies\\helpcommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\services\\loggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\iloggerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\handlers\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\handlers\\messagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\imessagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\icommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\services\\wetherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\services\\wetherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\iweatherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}|TelegramBot.Shared\\TelegramBot.Shared.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}|TelegramBot.Shared\\TelegramBot.Shared.csproj|solutionrelative:telegrambot.shared\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\services\\openaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.infrastructure\\telegrambot.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1BC84EF-5273-4D36-AD75-3680E0A75BB7}|TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj|solutionrelative:telegrambot.infrastructure\\telegrambot.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75AA6744-C0E9-47EA-9F8D-939817190DD4}|TelegramBot.Presentation\\TelegramBot.Presentation.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.presentation\\telegrambot.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{75AA6744-C0E9-47EA-9F8D-939817190DD4}|TelegramBot.Presentation\\TelegramBot.Presentation.csproj|solutionrelative:telegrambot.presentation\\telegrambot.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\icommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\icommandstrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\itelegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\itelegrambotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\interfaces\\iopenaiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\models\\chatresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|c:\\users\\user\\documents\\github\\telegram_bot\\tgbot\\telegrambot.core\\models\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAF0ED58-614C-4958-92CA-D75269C790AE}|TelegramBot.Core\\TelegramBot.Core.csproj|solutionrelative:telegrambot.core\\models\\userrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +110,340 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TelegramBotService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\TelegramBotService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Services\\TelegramBotService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\TelegramBotService.cs",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Services\\TelegramBotService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAMwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:58:36.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherCommandStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\WeatherCommandStrategy.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Strategies\\WeatherCommandStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\WeatherCommandStrategy.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Strategies\\WeatherCommandStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:45:47.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommandContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\CommandContext.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Strategies\\CommandContext.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\CommandContext.cs*",
+              "RelativeToolTip": "TelegramBot.Core\\Strategies\\CommandContext.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwCIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:34:53.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Handlers\\CommandHandler.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Handlers\\CommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Handlers\\CommandHandler.cs*",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Handlers\\CommandHandler.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:18:16.049Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
-              "RelativeDocumentMoniker": "Telegram_Messanging_Bot\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\Telegram_Messanging_Bot\\Program.cs",
-              "RelativeToolTip": "Telegram_Messanging_Bot\\Program.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAAABsBAAAlAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Presentation\\Program.cs*",
+              "RelativeToolTip": "TelegramBot.Presentation\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-18T06:45:14.609Z",
+              "WhenOpened": "2024-09-08T13:18:42.68Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartCommandStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\StartCommandStrategy.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Strategies\\StartCommandStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\StartCommandStrategy.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Strategies\\StartCommandStrategy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:33:52.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\LoggerService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Services\\LoggerService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\LoggerService.cs",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Services\\LoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:31:42.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Handlers\\MessageHandler.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Handlers\\MessageHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Handlers\\MessageHandler.cs",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Handlers\\MessageHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:26:40.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AskCommandStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\AskCommandStrategy.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Strategies\\AskCommandStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\AskCommandStrategy.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Strategies\\AskCommandStrategy.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBUAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:34:33.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HelpCommandStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\HelpCommandStrategy.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Strategies\\HelpCommandStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Strategies\\HelpCommandStrategy.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Strategies\\HelpCommandStrategy.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:34:14.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ICommandHandler.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\ICommandHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ICommandHandler.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\ICommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:22:46.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WetherService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\WetherService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Services\\WetherService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\WetherService.cs*",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Services\\WetherService.cs*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:38:51.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Shared\\Class1.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Shared\\Class1.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Shared\\Class1.cs",
+              "RelativeToolTip": "TelegramBot.Shared\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:19:25.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IMessageHandler.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IMessageHandler.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\IMessageHandler.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IMessageHandler.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\IMessageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:23:10.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ILoggerService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ILoggerService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\ILoggerService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ILoggerService.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\ILoggerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:24:15.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OpenAiService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\OpenAiService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\Services\\OpenAiService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\Services\\OpenAiService.cs*",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\Services\\OpenAiService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T09:14:15.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TelegramBot.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj*",
+              "RelativeToolTip": "TelegramBot.Infrastructure\\TelegramBot.Infrastructure.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T09:13:55.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IWeatherService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IWeatherService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\IWeatherService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IWeatherService.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\IWeatherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:23:55.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TelegramBot.Presentation",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Presentation\\TelegramBot.Presentation.csproj",
+              "RelativeDocumentMoniker": "TelegramBot.Presentation\\TelegramBot.Presentation.csproj",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Presentation\\TelegramBot.Presentation.csproj*",
+              "RelativeToolTip": "TelegramBot.Presentation\\TelegramBot.Presentation.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T10:27:33.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICommandStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ICommandStrategy.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\ICommandStrategy.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ICommandStrategy.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\ICommandStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:39:58.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITelegramBotService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ITelegramBotService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\ITelegramBotService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\ITelegramBotService.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\ITelegramBotService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:21:58.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IOpenAiService.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IOpenAiService.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Interfaces\\IOpenAiService.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Interfaces\\IOpenAiService.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Interfaces\\IOpenAiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T13:23:38.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatResponse.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\ChatResponse.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Models\\ChatResponse.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\ChatResponse.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Models\\ChatResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:20:51.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\WeatherData.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Models\\WeatherData.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\WeatherData.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Models\\WeatherData.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAkwBQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:20:33.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\UserRequest.cs",
+              "RelativeDocumentMoniker": "TelegramBot.Core\\Models\\UserRequest.cs",
+              "ToolTip": "C:\\Users\\user\\Documents\\GitHub\\telegram_bot\\TGBot\\TelegramBot.Core\\Models\\UserRequest.cs",
+              "RelativeToolTip": "TelegramBot.Core\\Models\\UserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T21:20:14.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
