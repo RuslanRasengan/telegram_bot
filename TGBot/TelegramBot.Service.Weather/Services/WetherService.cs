@@ -8,12 +8,12 @@ namespace TelegramBot.Service.Weather.Services
     {
         private readonly HttpClient _httpClient;
 
-        private readonly string _apiKey = "YOUR_APIKEY";
+        private readonly string _apiKey;
 
-        public WeatherService(HttpClient httpClient, IConfiguration configuration)
+        public WeatherService(IHttpClientFactory httpClientFactory, IConfiguration configuration)
         {
-            _httpClient = httpClient;
-            _apiKey = configuration["OpenWeather: ApiKey"]; // API ключ з конфігурації
+            _httpClient = httpClientFactory.CreateClient();
+            _apiKey = configuration["OpenWeather:ApiKey"]; // API ключ з конфігурації
         }
 
         public async Task<string> GetWeatherAsync(string cityName)

@@ -16,6 +16,9 @@ public static class Program
 {
     public static async Task Main(string[] args)
     {
+        // Встановлення кодування UTF-8 Для консолі
+        Console.OutputEncoding = System.Text.Encoding.UTF8;
+
         // Створення IConfigurator з налаштуваннями з файлу appsettings.json
         var configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory()) // Встановлюємо кореневу директорію для пошуку файлів конфігурації
@@ -35,19 +38,24 @@ public static class Program
     static void ConfigureService(IServiceCollection services, IConfiguration configuration)
     {
         // Реєстрація IConfiguration у DI-контейнері
-        services.AddSingleton<IConfiguration> (configuration);
+        services.AddSingleton<IConfiguration>(configuration);
 
         // Реєстрація сервісів
-        services.AddSingleton<ITelegramBotClient>(new TelegramBotClient("YOUR_TELEGRAM_BOT_CLIENT"));
-        services.AddSingleton<IWeatherService, WeatherService>();
-        services.AddSingleton<IOpenAiService, OpenAiService>();
+        services.AddSingleton<ITelegramBotClient>(provider =>
+        {
+            var token = configuration["TelegramBotClient:Token"];
+            return new TelegramBotClient(token);
+        });
+
+        services.AddHttpClient<IOpenAiService, OpenAiService>();
+        services.AddHttpClient<IWeatherService, WeatherService>();
         services.AddSingleton<ILoggerService, LoggerService>();
         services.AddSingleton<FileLoggerService>();
-        services.AddSingleton<HttpClientFactoryService>();
-        services.AddSingleton<HttpClient>();
-        services.AddHttpClient();
+        services.AddSingleton<ITelegramBotService, TelegramBotService>();
 
         // Реєстрація обробників
+        services.AddSingleton<IMessageHandler, MessageHandler>();
+        services.AddSingleton<ICommandHandler, CommandHandler>();
 
         // Реєстрація стратегій команд
         services.AddSingleton<CommandContext>();
@@ -56,5 +64,6 @@ public static class Program
         services.AddSingleton<ICommandStrategy, HelpCommandStrategy>();
         services.AddSingleton<ICommandStrategy, AskCommandStrategy>();
         services.AddSingleton<ICommandStrategy, WeatherCommandStrategy>();
+        services.AddSingleton<ICommandStrategy, UnknownCommandStrategy>();
     }
 }

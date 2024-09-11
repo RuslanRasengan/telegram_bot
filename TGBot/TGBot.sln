@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Infrastructure"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Presentation", "TelegramBot.Presentation\TelegramBot.Presentation.csproj", "{75AA6744-C0E9-47EA-9F8D-939817190DD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Shared", "TelegramBot.Shared\TelegramBot.Shared.csproj", "{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Service.Weather", "TelegramBot.Service.Weather\TelegramBot.Service.Weather.csproj", "{4D712E2C-52D1-4763-9CC5-4B2EC2532859}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBot.Service.OpenAi", "TelegramBot.Service.OpenAi\TelegramBot.Service.OpenAi.csproj", "{48E54C61-FF4C-4DD0-A890-EC4AFA1FC239}"
@@ -35,10 +33,6 @@ Global
 		{75AA6744-C0E9-47EA-9F8D-939817190DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75AA6744-C0E9-47EA-9F8D-939817190DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75AA6744-C0E9-47EA-9F8D-939817190DD4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D127B20-1BFE-4CD6-A129-0F58A21FC8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4D712E2C-52D1-4763-9CC5-4B2EC2532859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4D712E2C-52D1-4763-9CC5-4B2EC2532859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D712E2C-52D1-4763-9CC5-4B2EC2532859}.Release|Any CPU.ActiveCfg = Release|Any CPU

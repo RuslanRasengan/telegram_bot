@@ -1,4 +1,5 @@
-﻿using TelegramBot.Core.Interfaces.Commands;
+﻿using Microsoft.Extensions.DependencyInjection;
+using TelegramBot.Core.Interfaces.Commands;
 using TelegramBot.Service.TelegramBot.Strategies;
 
 namespace TelegramBot.Service.TelegramBot
@@ -20,7 +21,7 @@ namespace TelegramBot.Service.TelegramBot
                 "/help" => _serviceProvider.GetRequiredService<HelpCommandStrategy>(),
                 "/ask" => _serviceProvider.GetRequiredService<AskCommandStrategy>(),
                 "/weather" => _serviceProvider.GetRequiredService<WeatherCommandStrategy>(),
-                _ => null
+                _ => _serviceProvider.GetRequiredService<UnknownCommandStrategy>()
             };
         }
     }
